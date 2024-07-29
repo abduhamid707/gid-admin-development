@@ -1,0 +1,3 @@
+this.page = this.$route.query.page || 1
+this.offset = (this.page-1) * this.limit
+await this.getmenu()
